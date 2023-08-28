@@ -1,0 +1,64 @@
+:root {
+    /* COLORS */
+    --color-dark: #524C4A;
+    --color-light: #ffffff;
+    --color-primary: #4B787A;
+    --color-primary-light: #BFD9CC;
+    --color-gray-faded: #F5F4ED;
+    --color-orange-light: #D19A77;
+
+    /* FONTS */
+    --font-opensans: 'Open Sans', sans-serif;
+    --font-spectral: 'Spectral', serif;
+}
+
+
+/* body {
+    color: var(--primary-color);
+    font-size: var(--font-size);
+  } */
+
+* {
+    font-family: var(--font-opensans);
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* ==================== HEADER ====================  */
+.header {
+    background-color: var(--color-gray-faded);
+}
+
+.header__title {
+    font-size: 35px;
+    line-height: 49px;
+    color: var(--color-orange-light);
+    font-family: var(--font-spectral);
+}
+
+
+.header__links {
+    gap: 20px;
+}
+
+.header__links>li>a {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+
+
+/* ==================== HERO ====================  */
