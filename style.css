@@ -38,14 +38,15 @@ a {
 
 
 
+
 /* ==================== HEADER ====================  */
 .header {
     background-color: var(--color-gray-faded);
 }
 
 .header__title {
-    font-size: 35px;
-    line-height: 49px;
+    font-size: 30px;
+    line-height: 42px;
     color: var(--color-orange-light);
     font-family: var( --font-gastromond-regular);
     text-transform: uppercase;
@@ -68,3 +69,21 @@ a {
 
 
 /* ==================== HERO ====================  */
+.hero {
+    background-color: var(--color-primary);
+}
+
+.hero__container {
+    padding-top: 167px;
+    padding-bottom: 167px;
+}
+
+.hero__container-titles-wrapper {
+    color: var(--color-light);
+}
+
+.hero__container-titles-wrapper .title {
+    font-family: var( --font-gastromond-regular);
+    font-size: 80px;
+    line-height: 112px;
+}
